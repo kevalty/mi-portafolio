@@ -1,0 +1,99 @@
+{
+  "header": {
+    "name": "Kevin Bedon",
+    "navProjects": "Projects",
+    "navExperience": "Experience",
+    "navContact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "greeting": "Hi, I'm Kevin Bedon.",
+    "tagline": "A versatile Software Engineer crafting exceptional and accessible digital experiences.",
+    "cta": "Work with me"
+  },
+  "about": {
+    "title": "My Approach",
+    "paragraph1": "As a passionate Software Engineer with practical experience in full-stack web development and agile methodologies, I thrive on building innovative solutions. My background includes deploying applications, managing backend and frontend systems, and collaborating with international teams to deliver high-quality results.",
+    "paragraph2": "My international experience has honed my adaptability and collaboration skills, allowing me to excel both independently and in dynamic, multicultural environments."
+  },
+  "tooling": {
+    "title": "My Tech Stack & Tooling"
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Software Engineer",
+    "university": "Escuela Superior Politécnica de Chimborazo (ESPOCH)",
+    "location": "Riobamba, Ecuador",
+    "duration": "2020 – 2024",
+    "details": "Faculty of Informatics and Electronics. 9 academic periods (approx. 4.5 years)."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "job1_title": "AI Training Specialist @ Outlier AI",
+    "job1_company": "Outlier AI (US Based)",
+    "job1_duration": "2025 – Present",
+    "job1_location": "Remote",
+    "job1_desc": "Training artificial intelligence models by writing, analyzing, and refining code-based datasets. Responsibilities include crafting high-quality programming examples, debugging code snippets, and ensuring content meets strict accuracy standards across languages like Python, JavaScript, Java, and C#. Collaborating with technical teams to improve AI reasoning capabilities.",
+    "job2_title": "Freelance Web Developer",
+    "job2_company": "Freelance",
+    "job2_duration": "2023 – 2024",
+    "job2_location": "Remote",
+    "job2_desc": "Designed and implemented responsive web applications using React and Node.js to enhance user experience. Collaborated with clients across different time zones, meeting deadlines and delivering customized solutions. Managed version control and CI/CD pipelines using GitHub and DigitalOcean.",
+    "job3_title": "Web Development Intern @ ESPOCH",
+    "job3_company": "ESPOCH",
+    "job3_duration": "2022 – 2023",
+    "job3_location": "Riobamba, Ecuador",
+    "job3_desc": "Developed a functional website for the university, focusing on user experience and performance. Integrated modern development tools and implemented responsive design principles.",
+    "job4_title": "Teaching Assistant @ ESPOCH",
+    "job4_company": "ESPOCH",
+    "job4_duration": "Not Specified in CV",
+    "job4_location": "Riobamba, Ecuador",
+    "job4_desc": "Supported students in understanding core programming and web development concepts. Assisted professors with course materials and provided support during hands-on lab sessions.",
+    "job5_title": "International Work Experience (Cultural Exchange)",
+    "job5_company": "Various (Hospitality/Restaurant)",
+    "job5_duration": "2022, 2023, 2024 Summers",
+    "job5_location": "Montana, Arizona, Nevada, Wyoming, USA",
+    "job5_desc": "Worked in the hospitality and restaurant industry across multiple US states during summer cultural exchange programs. Significantly enhanced English fluency (reaching C1 Advanced level) and developed strong interpersonal and cross-cultural communication skills."
+  },
+  "projects": {
+    "title": "Case Studies",
+    "backendNote": "Note: Some projects include a backend hosted on a free service. The initial load might be slow as the server \"wakes up.\" Thank you for your patience!",
+    "viewDemo": "View Demo",
+    "viewCode": "View Code on GitHub",
+    "project1_title": "Web Metadata Extractor",
+    "project1_desc": "A Python-powered API extracts metadata (title, description, image) from a URL, displayed in a React frontend preview card.",
+    "project2_title": "Sentiment Analyzer Demo",
+    "project2_desc": "A full-stack application that analyzes the sentiment of a text using a Python backend and a professional React interface.",
+    "project3_title": "Interactive Architecture Diagram",
+    "project3_desc": "A professional, interactive diagram demonstrating Clean Architecture concepts for a full-stack application.",
+    "project4_title": "CI/CD Pipeline Visualizer",
+    "project4_desc": "An interactive diagram that illustrates the automated CI/CD pipeline for deploying a modern web application.",
+    "project5_title": "Live API Playground",
+    "project5_desc": "An interactive playground to test a live REST API. Users can fetch product data by ID and view the real-time JSON response.",
+    "project6_title": "Demo: Real-Time Form Validation",
+    "project6_desc": "A professional sign-up form that provides instant feedback, validating user input in real-time to enhance user experience.",
+    "project7_title": "Interactive Data Dashboard",
+    "project7_desc": "A professional, multi-page dashboard application featuring interactive charts and a modern user interface.",
+    "project8_title": "Demo: JWT Authentication",
+    "project8_desc": "A full-stack demo showcasing secure user registration and login using JSON Web Tokens (JWT).",
+    "project9_title": "QR Code Generator Demo",
+    "project9_desc": "A simple and visual demo where users can enter text or a URL, and a Python backend generates the corresponding QR code image instantly."
+  },
+  "otherProjects": {
+    "title": "Featured Code Repositories",
+    "subtitle": "Applying my knowledge, I have also developed the following projects. While they don't have live demos, the source code reflects my skills in architecture, logic, and implementation.",
+    "repo1_title": "NetMentor",
+    "repo1_desc": "An application for learning computer networks, built with a modern frontend and a powerful headless CMS.",
+    "repo2_title": "English Learning App (Beta)",
+    "repo2_desc": "A CRUD application for English language development, featuring voice recognition to correct pronunciation.",
+    "repo3_title": "Strapi Test Interface",
+    "repo3_desc": "An interface using Strapi as a backend CMS to manage CRUD operations for a testing application, connected to PostgreSQL.",
+    "repo4_title": "OA-Gamificacion",
+    "repo4_desc": "A gamified learning object designed to help users understand complex maintenance systems through interaction."
+  },
+  "contact": {
+    "title": "Interested in working together?",
+    "prompt": "My inbox is always open. Whether you have a question or just want to say hi, I'll do my best to get back to you! I'm particularly open to remote opportunities in growth-oriented environments.",
+    "cta": "Send me an email"
+  }
+}

@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+  cursor: none;
+}
+a, button {
+  cursor: none;
+}
+
+/* Base style for both cursor elements */
+.cursor-dot, .cursor-outline {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: transform 0.15s cubic-bezier(0.76, 0, 0.24, 1), 
+              width 0.2s ease-out, 
+              height 0.2s ease-out, 
+              background-color 0.2s ease, 
+              border-color 0.2s ease,
+              opacity 0.2s ease; /* Add transition for opacity */
+}
+
+/* Inner dot */
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: var(--cursor-color, #22D3EE); /* Cyan */
+}
+
+/* Outer outline */
+.cursor-outline {
+  width: 35px;
+  height: 35px;
+  border: 2px solid var(--cursor-color, #22D3EE); /* Cyan */
+  background-color: transparent; 
+  transition-delay: 0.05s; 
+}
+
+/* --- UPDATED HOVER EFFECT --- */
+a:hover ~ .cursor-dot, 
+button:hover ~ .cursor-dot {
+  transform: translate(-50%, -50%) scale(2.5); /* Make the inner dot larger */
+  background-color: var(--cursor-hover-color, #A5F3FC); /* Lighter cyan */
+  opacity: 0.5; /* Make it semi-transparent */
+}
+
+a:hover ~ .cursor-outline, 
+button:hover ~ .cursor-outline {
+  width: 45px; /* Outer outline expands slightly */
+  height: 45px;
+  border-width: 1px; 
+  border-color: var(--cursor-hover-color, #A5F3FC); /* Lighter cyan */
+  transition-duration: 0.1s; 
+}

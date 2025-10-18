@@ -1,0 +1,99 @@
+{
+  "header": {
+    "name": "Kevin Bedon",
+    "navProjects": "Proyectos",
+    "navExperience": "Experiencia",
+    "navContact": "Contacto",
+    "hireMe": "Contrátame"
+  },
+  "hero": {
+    "greeting": "Hola, soy Kevin Bedon.",
+    "tagline": "Un Ingeniero de Software versátil creando experiencias digitales excepcionales y accesibles.",
+    "cta": "Trabaja conmigo"
+  },
+  "about": {
+    "title": "Mi Enfoque",
+    "paragraph1": "Como Ingeniero de Software apasionado con experiencia práctica en desarrollo web full-stack y metodologías ágiles, prospero construyendo soluciones innovadoras. Mi experiencia incluye desplegar aplicaciones, gestionar sistemas backend y frontend, y colaborar con equipos internacionales para entregar resultados de alta calidad.",
+    "paragraph2": "Mi experiencia internacional ha perfeccionado mi adaptabilidad y habilidades de colaboración, permitiéndome destacar tanto de forma independiente como en entornos dinámicos y multiculturales."
+  },
+  "tooling": {
+    "title": "Mi Stack Tecnológico y Herramientas"
+  },
+  "education": {
+    "title": "Educación",
+    "degree": "Ingeniero de Software",
+    "university": "Escuela Superior Politécnica de Chimborazo (ESPOCH)",
+    "location": "Riobamba, Ecuador",
+    "duration": "2020 – 2024",
+    "details": "Facultad de Informática y Electrónica. 9 períodos académicos (aprox. 4.5 años)."
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "job1_title": "Especialista en Entrenamiento de IA @ Outlier AI",
+    "job1_company": "Outlier AI (Basado en EE. UU.)",
+    "job1_duration": "2025 – Presente",
+    "job1_location": "Remoto",
+    "job1_desc": "Entrenamiento de modelos de inteligencia artificial mediante la escritura, análisis y refinamiento de conjuntos de datos basados en código. Las responsabilidades incluyen la creación de ejemplos de programación de alta calidad, depuración de fragmentos de código y asegurar que el contenido cumpla estrictos estándares de precisión en lenguajes como Python, JavaScript, Java y C#. Colaborando con equipos técnicos para mejorar las capacidades de razonamiento de la IA.",
+    "job2_title": "Desarrollador Web Freelance",
+    "job2_company": "Freelance",
+    "job2_duration": "2023 – 2024",
+    "job2_location": "Remoto",
+    "job2_desc": "Diseñé e implementé aplicaciones web responsivas usando React y Node.js para mejorar la experiencia del usuario. Colaboré con clientes en diferentes zonas horarias, cumpliendo plazos y entregando soluciones personalizadas. Gestioné el control de versiones y pipelines de CI/CD usando GitHub y DigitalOcean.",
+    "job3_title": "Pasante de Desarrollo Web @ ESPOCH",
+    "job3_company": "ESPOCH",
+    "job3_duration": "2022 – 2023",
+    "job3_location": "Riobamba, Ecuador",
+    "job3_desc": "Desarrollé un sitio web funcional para la universidad, enfocándome en la experiencia del usuario y el rendimiento. Integré herramientas de desarrollo modernas e implementé principios de diseño responsivo.",
+    "job4_title": "Ayudante de Cátedra @ ESPOCH",
+    "job4_company": "ESPOCH",
+    "job4_duration": "No especificado en CV",
+    "job4_location": "Riobamba, Ecuador",
+    "job4_desc": "Apoyé a estudiantes en la comprensión de conceptos fundamentales de programación y desarrollo web. Asistí a profesores con materiales del curso y brindé apoyo durante las sesiones prácticas de laboratorio.",
+    "job5_title": "Experiencia Laboral Internacional (Intercambio Cultural)",
+    "job5_company": "Varios (Hostelería/Restauración)",
+    "job5_duration": "Veranos 2022, 2023, 2024",
+    "job5_location": "Montana, Arizona, Nevada, Wyoming, EE. UU.",
+    "job5_desc": "Trabajé en la industria de la hostelería y restauración en varios estados de EE. UU. durante programas de intercambio cultural de verano. Mejoré significativamente la fluidez en inglés (alcanzando el nivel C1 Avanzado) y desarrollé sólidas habilidades interpersonales y de comunicación intercultural."
+  },
+  "projects": {
+    "title": "Casos de Estudio",
+    "backendNote": "Nota: Algunos proyectos incluyen un backend alojado en un servicio gratuito. La carga inicial puede ser lenta mientras el servidor \"despierta\". ¡Gracias por tu paciencia!",
+    "viewDemo": "Ver Demo",
+    "viewCode": "Ver Código en GitHub",
+    "project1_title": "Extractor de Metadatos Web",
+    "project1_desc": "Una API impulsada por Python extrae metadatos (título, descripción, imagen) de una URL, mostrados en una tarjeta de vista previa en el frontend de React.",
+    "project2_title": "Demo: Analizador de Sentimientos",
+    "project2_desc": "Una aplicación full-stack que analiza el sentimiento de un texto usando un backend de Python y una interfaz profesional de React.",
+    "project3_title": "Diagrama de Arquitectura Interactivo",
+    "project3_desc": "Un diagrama profesional e interactivo que demuestra conceptos de Arquitectura Limpia para una aplicación full-stack.",
+    "project4_title": "Visualizador de Pipeline CI/CD",
+    "project4_desc": "Un diagrama interactivo que ilustra el pipeline automatizado de CI/CD para desplegar una aplicación web moderna.",
+    "project5_title": "Playground de API en Vivo",
+    "project5_desc": "Un playground interactivo para probar una API REST en vivo. Los usuarios pueden obtener datos de productos por ID y ver la respuesta JSON en tiempo real.",
+    "project6_title": "Demo: Validación de Formulario en Tiempo Real",
+    "project6_desc": "Un formulario de registro profesional que proporciona retroalimentación instantánea, validando la entrada del usuario en tiempo real para mejorar la experiencia.",
+    "project7_title": "Dashboard Interactivo de Datos",
+    "project7_desc": "Una aplicación de dashboard profesional de varias páginas con gráficos interactivos y una interfaz de usuario moderna.",
+    "project8_title": "Demo: Autenticación JWT",
+    "project8_desc": "Un demo full-stack que muestra el registro e inicio de sesión seguro de usuarios usando JSON Web Tokens (JWT).",
+    "project9_title": "Demo: Generador de Códigos QR",
+    "project9_desc": "Un demo simple y visual donde los usuarios pueden ingresar texto o una URL, y un backend de Python genera instantáneamente la imagen del código QR correspondiente."
+  },
+  "otherProjects": {
+    "title": "Repositorios de Código Destacados",
+    "subtitle": "Aplicando mis conocimientos, también he desarrollado los siguientes proyectos. Aunque no tienen demos en vivo, el código fuente refleja mis habilidades en arquitectura, lógica e implementación.",
+    "repo1_title": "NetMentor",
+    "repo1_desc": "Una aplicación para el aprendizaje de redes de computadoras, construida con un frontend moderno y un potente CMS headless.",
+    "repo2_title": "App de Aprendizaje de Inglés (Beta)",
+    "repo2_desc": "Una aplicación CRUD para el desarrollo del idioma inglés, con reconocimiento de voz para corregir la pronunciación.",
+    "repo3_title": "Interfaz de Prueba Strapi",
+    "repo3_desc": "Una interfaz que usa Strapi como CMS backend para gestionar operaciones CRUD para una aplicación de pruebas, conectada a PostgreSQL.",
+    "repo4_title": "OA-Gamificacion",
+    "repo4_desc": "Un objeto de aprendizaje gamificado diseñado para ayudar a los usuarios a entender sistemas complejos de mantenimiento mediante la interacción."
+  },
+  "contact": {
+    "title": "¿Interesado en trabajar juntos?",
+    "prompt": "Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible por responderte! Estoy particularmente abierto a oportunidades remotas en entornos orientados al crecimiento.",
+    "cta": "Envíame un correo"
+  }
+}
