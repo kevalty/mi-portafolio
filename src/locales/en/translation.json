@@ -9,7 +9,8 @@
   "hero": {
     "greeting": "Hi, I'm Kevin Bedon.",
     "tagline": "A versatile Software Engineer crafting exceptional and accessible digital experiences.",
-    "cta": "Work with me"
+    "cta": "Work with me",
+    "downloadCV": "Download CV"
   },
   "about": {
     "title": "My Approach",
@@ -46,7 +47,7 @@
     "job3_desc": "Developed a functional website for the university, focusing on user experience and performance. Integrated modern development tools and implemented responsive design principles.",
     "job4_title": "Teaching Assistant @ ESPOCH",
     "job4_company": "ESPOCH",
-    "job4_duration": "Not Specified in CV",
+    "job4_duration": "2023 - 2024",
     "job4_location": "Riobamba, Ecuador",
     "job4_desc": "Supported students in understanding core programming and web development concepts. Assisted professors with course materials and provided support during hands-on lab sessions.",
     "job5_title": "International Work Experience (Cultural Exchange)",

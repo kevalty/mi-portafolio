@@ -9,7 +9,8 @@
   "hero": {
     "greeting": "Hola, soy Kevin Bedon.",
     "tagline": "Un Ingeniero de Software versátil creando experiencias digitales excepcionales y accesibles.",
-    "cta": "Trabaja conmigo"
+    "cta": "Trabaja conmigo",
+    "downloadCV": "Descargar CV"
   },
   "about": {
     "title": "Mi Enfoque",
@@ -46,7 +47,7 @@
     "job3_desc": "Desarrollé un sitio web funcional para la universidad, enfocándome en la experiencia del usuario y el rendimiento. Integré herramientas de desarrollo modernas e implementé principios de diseño responsivo.",
     "job4_title": "Ayudante de Cátedra @ ESPOCH",
     "job4_company": "ESPOCH",
-    "job4_duration": "No especificado en CV",
+    "job4_duration": "2023 - 2024",
     "job4_location": "Riobamba, Ecuador",
     "job4_desc": "Apoyé a estudiantes en la comprensión de conceptos fundamentales de programación y desarrollo web. Asistí a profesores con materiales del curso y brindé apoyo durante las sesiones prácticas de laboratorio.",
     "job5_title": "Experiencia Laboral Internacional (Intercambio Cultural)",
