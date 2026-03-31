@@ -11,6 +11,8 @@ export default function SEO() {
       <meta property="og:description" content="Software Engineer, AI Trainer & Full Stack Developer from Ecuador." />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://kevinbedon.dev" />
+      <meta property="og:image" content="https://kevinbedon.dev/og-image.png" />
+      <meta name="twitter:image" content="https://kevinbedon.dev/og-image.png" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="Kevin Bedon — Software Developer" />
       <meta name="twitter:description" content="Software Engineer, AI Trainer & Full Stack Developer from Ecuador." />
