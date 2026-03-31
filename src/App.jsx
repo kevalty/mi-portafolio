@@ -1,7 +1,7 @@
 // src/App.jsx
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header.jsx';
-import Hero from './components/Hero.jsx';
+import Hero from './components/Hero/index.jsx';
 import About from './components/About.jsx';
 import Tooling from './components/Tooling.jsx';
 import Experience from './components/Experience.jsx';
