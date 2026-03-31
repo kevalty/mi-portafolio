@@ -1,6 +1,7 @@
 // src/components/Education.jsx
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import AnimatedSection from './ui/AnimatedSection';
 
 // Data remains the same
 const educationHistory = [
@@ -53,14 +54,16 @@ const Education = () => {
 
         {/* Vertical Timeline Structure using an ordered list */}
         {/* The line is now created by the border on the OL */}
-        <ol className="relative border-s border-border-color"> {/* Use border-start (border-s) */}
-          {educationHistory.map((item, index) => (
-            <TimelineItem
-              key={index}
-              itemKey={item.key}
-            />
-          ))}
-        </ol>
+        <AnimatedSection>
+          <ol className="relative border-s border-border-color"> {/* Use border-start (border-s) */}
+            {educationHistory.map((item, index) => (
+              <TimelineItem
+                key={index}
+                itemKey={item.key}
+              />
+            ))}
+          </ol>
+        </AnimatedSection>
 
       </div>
     </section>

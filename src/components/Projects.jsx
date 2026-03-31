@@ -1,5 +1,6 @@
 // src/components/Projects.jsx
 import { useTranslation } from 'react-i18next';
+import AnimatedSection from './ui/AnimatedSection';
 
 // Define the keys for iteration, adding the new project at the end
 const projectKeys = ['project1', 'project2', 'project3', 'project4', 'project5', 'project6', 'project7', 'project8', 'project9']; 
@@ -101,11 +102,13 @@ function Projects() {
         </p>
 
         {/* Adjusted grid for up to 9 items (3x3 layout on lg screens) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"> 
-          {projectKeys.map((key) => (
-            <ProjectCard key={key} projectKey={key} />
-          ))}
-        </div>
+        <AnimatedSection>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+            {projectKeys.map((key) => (
+              <ProjectCard key={key} projectKey={key} />
+            ))}
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );

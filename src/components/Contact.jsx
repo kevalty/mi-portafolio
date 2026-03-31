@@ -1,6 +1,7 @@
 // src/components/Contact.jsx
 import React, { useState } from 'react'; // Import useState
 import { useTranslation } from 'react-i18next';
+import AnimatedSection from './ui/AnimatedSection';
 
 function Contact() {
   const { t } = useTranslation();
@@ -26,17 +27,19 @@ function Contact() {
   return (
     <section id="contact" className="py-24 px-8 bg-background">
       <div className="container mx-auto text-center max-w-3xl">
-        <h2 className="font-sans text-4xl font-bold mb-6 text-text-light">{t('contact.title')}</h2>
-        <p className="text-lg text-text-secondary mx-auto mb-8">
-          {t('contact.prompt')}
-        </p>
-        {/* Changed <a> to <button> and added onClick */}
-        <button
-          onClick={handleContactClick}
-          className="inline-block bg-accent text-white font-bold py-3 px-8 rounded-md transition duration-300 hover:bg-accent-hover transform hover:scale-105 shadow-lg w-full sm:w-auto" // Added width constraint
-        >
-          {buttonText} {/* Display dynamic button text */}
-        </button>
+        <AnimatedSection>
+          <h2 className="font-sans text-4xl font-bold mb-6 text-text-light">{t('contact.title')}</h2>
+          <p className="text-lg text-text-secondary mx-auto mb-8">
+            {t('contact.prompt')}
+          </p>
+          {/* Changed <a> to <button> and added onClick */}
+          <button
+            onClick={handleContactClick}
+            className="inline-block bg-accent text-white font-bold py-3 px-8 rounded-md transition duration-300 hover:bg-accent-hover transform hover:scale-105 shadow-lg w-full sm:w-auto" // Added width constraint
+          >
+            {buttonText} {/* Display dynamic button text */}
+          </button>
+        </AnimatedSection>
       </div>
     </section>
   );

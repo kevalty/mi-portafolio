@@ -1,6 +1,7 @@
 // src/components/Experience.jsx
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import AnimatedSection from './ui/AnimatedSection';
 
 const experienceKeys = ['job1', 'job2', 'job3', 'job4', 'job5']; 
 
@@ -67,14 +68,16 @@ const Experience = () => {
       <div className="container mx-auto text-center max-w-4xl">
         <h2 className="font-sans text-4xl font-bold mb-12 text-text-light">{t('experience.title')}</h2> 
 
-        {experienceKeys.map((key) => (
-          <ExperienceCard
-            key={key}
-            experienceKey={key}
-            isOpen={openCardId === key}
-            toggleOpen={() => toggleOpen(key)}
-          />
-        ))}
+        <AnimatedSection>
+          {experienceKeys.map((key) => (
+            <ExperienceCard
+              key={key}
+              experienceKey={key}
+              isOpen={openCardId === key}
+              toggleOpen={() => toggleOpen(key)}
+            />
+          ))}
+        </AnimatedSection>
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 // src/components/OtherProjects.jsx
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import AnimatedSection from './ui/AnimatedSection';
 
 // Define the keys for iteration
 const repoKeys = ['repo1', 'repo2', 'repo3', 'repo4'];
@@ -68,11 +69,13 @@ function OtherProjects() {
         <p className="text-lg text-text-secondary max-w-3xl mx-auto mb-12">
           {t('otherProjects.subtitle')}
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-          {repoKeys.map((key) => (
-            <RepoCard key={key} repoKey={key} />
-          ))}
-        </div>
+        <AnimatedSection>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+            {repoKeys.map((key) => (
+              <RepoCard key={key} repoKey={key} />
+            ))}
+          </div>
+        </AnimatedSection>
       </div>
     </section>
   );
