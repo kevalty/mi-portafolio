@@ -3,7 +3,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import AnimatedSection from './ui/AnimatedSection';
 import { FaReact, FaAngular, FaNodeJs, FaFigma, FaSass, FaPython } from 'react-icons/fa';
-import { SiMongodb, SiJavascript, SiTypescript, SiSolidity, SiDocker } from 'react-icons/si';
+import { SiMongodb, SiJavascript, SiTypescript, SiDocker } from 'react-icons/si';
 
 const technologies = [
   { name: 'React', IconComponent: FaReact },
@@ -30,7 +30,7 @@ const Tooling = () => {
         
         <AnimatedSection>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
-            {technologies.map(({ name, IconComponent }, index) => (
+            {technologies.map((tech, index) => (
               <div
                 key={index}
                 // Tarjetas con fondo oscuro secundario y borde sutil
@@ -38,9 +38,9 @@ const Tooling = () => {
                            hover:border-accent transition-all duration-300 transform hover:-translate-y-1 shadow-md"
               >
                 {/* Icono con color de acento */}
-                <IconComponent className="h-10 w-10 text-accent" />
+                <tech.IconComponent className="h-10 w-10 text-accent" />
                 {/* Texto claro */}
-                <span className="text-lg font-medium text-text-light">{name}</span>
+                <span className="text-lg font-medium text-text-light">{tech.name}</span>
               </div>
             ))}
           </div>

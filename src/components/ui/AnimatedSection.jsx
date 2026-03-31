@@ -1,4 +1,4 @@
-import { motion, useInView } from 'framer-motion';
+import { motion as Motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 export default function AnimatedSection({ children, className = '', delay = 0 }) {
@@ -6,7 +6,7 @@ export default function AnimatedSection({ children, className = '', delay = 0 })
   const isInView = useInView(ref, { once: true, margin: '-80px' });
 
   return (
-    <motion.div
+    <Motion.div
       ref={ref}
       initial={{ opacity: 0, y: 48 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -14,6 +14,6 @@ export default function AnimatedSection({ children, className = '', delay = 0 })
       className={className}
     >
       {children}
-    </motion.div>
+    </Motion.div>
   );
 }
