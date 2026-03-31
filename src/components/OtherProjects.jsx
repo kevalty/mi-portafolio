@@ -47,7 +47,7 @@ const RepoCard = ({ repoKey }) => {
       <div className="flex flex-wrap gap-2 mt-auto pt-4">
         {details.tech.map((techName) => (
           // Subtle technology tags
-          <span key={techName} className="bg-border-color text-xs font-medium px-3 py-1 rounded-full text-text-secondary">
+          <span key={techName} className="bg-border-color text-xs font-mono px-3 py-1 rounded-full text-text-secondary">
             {techName}
           </span>
         ))}
@@ -64,7 +64,7 @@ function OtherProjects() {
     <section id="other-projects" className="py-24 px-8 bg-primary">
       <div className="container mx-auto text-center">
         {/* Light title text */}
-        <h2 className="font-sans text-4xl font-bold mb-4 text-text-light">{t('otherProjects.title')}</h2>
+        <h2 className="font-display text-4xl font-bold mb-4 text-text-light">{t('otherProjects.title')}</h2>
         {/* Secondary subtitle text */}
         <p className="text-lg text-text-secondary max-w-3xl mx-auto mb-12">
           {t('otherProjects.subtitle')}

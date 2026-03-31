@@ -66,7 +66,7 @@ const Experience = () => {
     // Sección con fondo oscuro principal
     <section id="experience" className="py-24 px-8 bg-background text-text-light"> 
       <div className="container mx-auto text-center max-w-4xl">
-        <h2 className="font-sans text-4xl font-bold mb-12 text-text-light">{t('experience.title')}</h2> 
+        <h2 className="font-display text-4xl font-bold mb-12 text-text-light">{t('experience.title')}</h2> 
 
         <AnimatedSection>
           {experienceKeys.map((key) => (

@@ -11,7 +11,7 @@ function About() {
       <div className="container mx-auto">
         {/* Section Title with Accent Line */}
         <div className="text-center mb-16">
-          <h2 className="font-sans text-4xl font-bold mb-3 text-text-light">{t('about.title')}</h2>
+          <h2 className="font-display text-4xl font-bold mb-3 text-text-light">{t('about.title')}</h2>
           <div className="w-16 h-1 bg-accent mx-auto"></div> {/* Accent line */}
         </div>
 

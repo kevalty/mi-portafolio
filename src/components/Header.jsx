@@ -10,7 +10,7 @@ function Header() {
     <header className="fixed top-0 left-0 w-full bg-background/90 backdrop-blur-sm border-b border-border-color z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-4 sm:px-8"> {/* Adjusted padding */}
         {/* Logo/Name */}
-        <h1 className="text-xl font-bold font-serif text-accent cursor-pointer">Kevin Bedon</h1>
+        <h1 className="text-xl font-bold font-display text-accent cursor-pointer">Kevin Bedon</h1>
 
         {/* Navigation and Language Switcher Container */}
         <div className="flex items-center gap-4"> {/* Use gap-4 */}

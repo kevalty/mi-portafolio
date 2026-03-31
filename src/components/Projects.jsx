@@ -68,7 +68,7 @@ const ProjectCard = ({ projectKey }) => {
         <div className="flex flex-wrap gap-2 mb-6">
           {/* Ensure details.tech exists before mapping */}
           {details.tech?.map((techName) => ( 
-            <span key={techName} className="bg-border-color text-xs font-medium px-3 py-1 rounded-full text-text-secondary">{techName}</span>
+            <span key={techName} className="bg-border-color text-xs font-mono px-3 py-1 rounded-full text-text-secondary">{techName}</span>
           ))}
         </div>
       </div>
@@ -95,7 +95,7 @@ function Projects() {
   return (
     <section id="projects" className="py-24 px-8 bg-background">
       <div className="container mx-auto text-center">
-        <h2 className="font-sans text-4xl font-bold mb-4 text-text-light">{t('projects.title')}</h2>
+        <h2 className="font-display text-4xl font-bold mb-4 text-text-light">{t('projects.title')}</h2>
 
         <p className="text-base text-text-secondary max-w-3xl mx-auto mb-12">
           {t('projects.backendNote')}

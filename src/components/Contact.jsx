@@ -28,7 +28,7 @@ function Contact() {
     <section id="contact" className="py-24 px-8 bg-background">
       <div className="container mx-auto text-center max-w-3xl">
         <AnimatedSection>
-          <h2 className="font-sans text-4xl font-bold mb-6 text-text-light">{t('contact.title')}</h2>
+          <h2 className="font-display text-4xl font-bold mb-6 text-text-light">{t('contact.title')}</h2>
           <p className="text-lg text-text-secondary mx-auto mb-8">
             {t('contact.prompt')}
           </p>

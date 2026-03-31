@@ -50,7 +50,7 @@ const Education = () => {
     <section id="education" className="py-24 px-8 bg-primary">
       <div className="container mx-auto max-w-2xl"> {/* Centered content */}
         {/* Light title */}
-        <h2 className="font-sans text-4xl font-bold mb-16 text-center text-text-light">{t('education.title')}</h2>
+        <h2 className="font-display text-4xl font-bold mb-16 text-center text-text-light">{t('education.title')}</h2>
 
         {/* Vertical Timeline Structure using an ordered list */}
         {/* The line is now created by the border on the OL */}

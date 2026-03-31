@@ -26,7 +26,7 @@ const Tooling = () => {
     <section id="tooling" className="py-24 px-8 bg-background text-text-light"> 
       <div className="container mx-auto text-center">
         {/* Título claro, usa font-sans */}
-        <h2 className="font-sans text-4xl font-bold mb-12 text-text-light">{t('tooling.title')}</h2> 
+        <h2 className="font-display text-4xl font-bold mb-12 text-text-light">{t('tooling.title')}</h2> 
         
         <AnimatedSection>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
