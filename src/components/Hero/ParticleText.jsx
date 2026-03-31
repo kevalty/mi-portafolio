@@ -15,7 +15,7 @@ export default function ParticleText() {
     // Scene
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(60, width / height, 0.1, 1000);
-    camera.position.z = 250;
+    camera.position.z = 200;
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setSize(width, height);
@@ -35,14 +35,14 @@ export default function ParticleText() {
 
     const { data } = ctx.getImageData(0, 0, 600, 150);
     const targets = [];
-    const stride = 5;
+    const stride = 4;
 
     for (let y = 0; y < 150; y += stride) {
       for (let x = 0; x < 600; x += stride) {
         if (data[(y * 600 + x) * 4 + 3] > 128) {
           targets.push(
-            (x - 300) * 0.55,
-            (75 - y) * 0.55,
+            (x - 300) * 1.4,
+            (75 - y) * 1.4,
             0
           );
         }

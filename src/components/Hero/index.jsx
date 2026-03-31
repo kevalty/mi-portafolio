@@ -14,7 +14,7 @@ function Hero() {
         </p>
 
         {/* Particle canvas - particles assemble into "KEVIN" */}
-        <div className="w-full h-36 md:h-52 -ml-2">
+        <div className="w-full h-48 md:h-72 -ml-2">
           <Suspense fallback={null}>
             <ParticleText />
           </Suspense>
