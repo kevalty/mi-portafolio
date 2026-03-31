@@ -1,5 +1,6 @@
+import { lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-import ParticleText from './ParticleText';
+const ParticleText = lazy(() => import('./ParticleText'));
 
 function Hero() {
   const { t } = useTranslation();
@@ -14,7 +15,9 @@ function Hero() {
 
         {/* Particle canvas - particles assemble into "KEVIN" */}
         <div className="w-full h-36 md:h-52 -ml-2">
-          <ParticleText />
+          <Suspense fallback={null}>
+            <ParticleText />
+          </Suspense>
         </div>
 
         {/* Last name + title */}

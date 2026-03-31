@@ -5,11 +5,13 @@
 html {
   scroll-behavior: smooth;
 }
-body, html {
-  cursor: none;
-}
-a, button {
-  cursor: none;
+@media (pointer: fine) {
+  body, html {
+    cursor: none;
+  }
+  a, button {
+    cursor: none;
+  }
 }
 
 /* Base style for both cursor elements */

@@ -139,5 +139,5 @@ export default function ParticleText() {
     };
   }, []);
 
-  return <div ref={mountRef} className="w-full h-full" />;
+  return <div ref={mountRef} className="w-full h-full" aria-label="Kevin" role="img" />;
 }
