@@ -7,6 +7,7 @@
     "hireMe": "Hire Me"
   },
   "hero": {
+    "intro": "Hello, I'm",
     "greeting": "Hi, I'm Kevin Bedon.",
     "tagline": "A versatile Software Engineer crafting exceptional and accessible digital experiences.",
     "cta": "Work with me",
