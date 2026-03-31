@@ -10,6 +10,7 @@ export default function ParticleText() {
 
     const width = mount.clientWidth;
     const height = mount.clientHeight;
+    if (!width || !height) return;
 
     // Scene
     const scene = new THREE.Scene();
@@ -75,8 +76,9 @@ export default function ParticleText() {
     // Mouse position for repulsion
     const mouse = { x: 0, y: 0 };
     const onMouseMove = (e) => {
-      mouse.x = (e.clientX / window.innerWidth - 0.5) * 2;
-      mouse.y = -(e.clientY / window.innerHeight - 0.5) * 2;
+      const rect = mount.getBoundingClientRect();
+      mouse.x = ((e.clientX - rect.left) / rect.width - 0.5) * 2;
+      mouse.y = -(((e.clientY - rect.top) / rect.height) - 0.5) * 2;
     };
     window.addEventListener('mousemove', onMouseMove);
 
@@ -84,6 +86,7 @@ export default function ParticleText() {
     const onResize = () => {
       const w = mount.clientWidth;
       const h = mount.clientHeight;
+      if (!w || !h) return;
       camera.aspect = w / h;
       camera.updateProjectionMatrix();
       renderer.setSize(w, h);
@@ -126,6 +129,7 @@ export default function ParticleText() {
       cancelAnimationFrame(animId);
       window.removeEventListener('mousemove', onMouseMove);
       window.removeEventListener('resize', onResize);
+      scene.remove(points);
       geometry.dispose();
       material.dispose();
       renderer.dispose();
