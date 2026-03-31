@@ -1,16 +1,42 @@
-# React + Vite
+# Kevin Bedon — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website for Kevin Alexander Bedon Granizo, Software Engineer & AI Trainer from Ecuador.
 
-Currently, two official plugins are available:
+## Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[kevinbedon.dev](https://kevinbedon.dev) *(update once deployed)*
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 19 + Vite 7
+- **Styling**: Tailwind CSS 3
+- **3D / Animation**: Three.js + Framer Motion
+- **i18n**: react-i18next (ES/EN)
+- **SEO**: react-helmet-async
+- **Fonts**: Clash Display, Satoshi, JetBrains Mono
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Three.js particle text: particles assemble into "KEVIN" on load
+- Scroll-triggered fade-up animations on every section
+- Full Spanish/English translation
+- 9 live project demos + 4 GitHub repos showcased
+- Custom animated cursor
+- Noise/grain texture overlay for visual depth
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Sections
+
+Hero → About → Skills → Education → Experience → Projects → Other Projects → Contact
